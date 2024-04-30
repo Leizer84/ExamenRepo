@@ -41,42 +41,4 @@
 </body>
 </html>
 
-<!--     <div class="container">
-    <h1>Mantenimiento Vuelos</h1>
-    <br>
 
-    <a href= '{{route('Vuelo.agregarVuelos')}}' class="btn btn-success">Agregar Nuevo</a>
-    
-    <br>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Numero Vuelo</th>
-                <th>Origen</th>
-                <th>Destino</th>
-                <th>Numero Asientos</th>
-                <th colspan="4">Acciones</th>
-            </tr>
-        </thead>
-        <tbody>
-            
-            @foreach ($vuelos as $vuelo)
-            <tr>
-                <td>{{ $vuelo->numeroVuelo }}</td>
-                <td>{{ $vuelo->origen}}</td>
-                <td>{{ $vuelo->destino}}</td>
-                <td>{{ $vuelo->numeroAsientos}}</td>
-                <td>
-                    <a href='{{route('Vuelo.editarVuelos', $vuelo->numeroVuelo)}}'>Editar</a>
-                </td>
-                <td>
-                    <a>Eliminar</a>
-                </td>
-                <td>
-                    <a href='{{route('Vuelo.agregarAsientoVuelos')}}'>Agregar Asiento</a>
-                </td>
-                <td>
-                    <a href='{{route('Vuelo.vueloAsientos')}}'>Ver Asientos</a>
-                </td>
-            </tr>
-            @endforeach-->
